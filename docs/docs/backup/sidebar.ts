@@ -14,6 +14,7 @@ export default [
             { text: 'Adobe', link: 'docs/backup/软件工具/Adobe' },
             { text: 'Jetbrains', link: 'docs/backup/软件工具/Jetbrains' },
             { text: 'VsCode', link: 'docs/backup/软件工具/VsCode' },
+            { text: 'VPN', link: 'docs/backup/软件工具/VPN' },
         ]
     },
 ] satisfies DefaultTheme.SidebarItem[]
