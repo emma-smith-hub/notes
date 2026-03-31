@@ -4,3 +4,14 @@
     --vp-font-family-base: "Maple Mono NF CN", 'Punctuation SC', 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --vp-font-family-mono: "Maple Mono NF CN", ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 }
+
+
+/* 文档内所有表格为 100% 宽度 */
+.vp-doc table{
+    display: table;
+    min-width: 100%;
+}
+
+.vp-doc table td{
+    text-wrap: nowrap;
+}

@@ -17,4 +17,8 @@ export default [
             { text: 'VPN', link: 'docs/backup/软件工具/VPN' },
         ]
     },
+    {
+        text:"系统调优",
+        link:'docs/backup/系统调优'
+    }
 ] satisfies DefaultTheme.SidebarItem[]
