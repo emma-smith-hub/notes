@@ -28,5 +28,9 @@ export default defineConfig({
         server: {
             host: '0.0.0.0'
         }
+    },
+
+    markdown: {
+        lineNumbers: true
     }
 })
