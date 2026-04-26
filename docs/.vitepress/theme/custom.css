@@ -6,6 +6,15 @@
 }
 
 
+/* 文档内所有图片居中 */
+.vp-doc p img{
+    margin: 0 auto;
+}
+
+.table_p{
+    overflow: auto;
+}
+
 /* 文档内所有表格为 100% 宽度 */
 .vp-doc table{
     display: table;

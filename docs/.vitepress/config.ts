@@ -31,6 +31,17 @@ export default defineConfig({
     },
 
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        config(md) {
+            md.use((md) => {
+                md.renderer.rules.table_open = (tokens, idx, options, env, self) => {
+                    return '<div class="table_p">\n<table>'
+                }
+
+                md.renderer.rules.table_close = function (tokens, idx, options, env, self) {
+                    return '</table>\n</div>';
+                };
+            })
+        },
     }
 })
