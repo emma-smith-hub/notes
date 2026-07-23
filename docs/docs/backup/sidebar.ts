@@ -11,7 +11,6 @@ export default [
             { text: '图像处理', link: 'docs/backup/software/图像处理' },
             { text: '存储桶', link: 'docs/backup/software/存储桶' },
             { text: '截图工具', link: 'docs/backup/software/截图' },
-            { text: 'Adobe', link: 'docs/backup/software/Adobe' },
             { text: 'Jetbrains', link: 'docs/backup/software/Jetbrains' },
             { text: 'VsCode', link: 'docs/backup/software/VsCode' },
             { text: 'VPN', link: 'docs/backup/software/VPN' },
