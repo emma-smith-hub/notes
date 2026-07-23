@@ -24,3 +24,11 @@
 .vp-doc table td{
     text-wrap: nowrap;
 }
+
+ol li{
+    list-style-position: inside
+}
+
+ul li{
+    list-style-position: inside
+}
