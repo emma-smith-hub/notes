@@ -6,9 +6,7 @@ export default [
         text: '开发层级',
         items: [
             { text: 'Bun Workers', link: 'docs/develop/develop/bun-worker' },
-            { text: 'P-Queue 队列', link: 'docs/develop/develop/p-queue' },
-            { text: 'OpenAi', link: 'docs/develop/develop/openai' },
-            { text: 'Vercel Ai SDK', link: 'docs/develop/develop/vercel-ai-sdk' },
+            { text: 'P-Queue 队列', link: 'docs/develop/develop/p-queue' }
         ],
         collapsed: false
     },
@@ -36,6 +34,14 @@ export default [
         items: [
             { text: 'Hyper-v 差分磁盘', link: 'docs/develop/windows/hyper-v-differencing' },
             { text: 'Hyper-v 创建虚拟磁盘', link: 'docs/develop/windows/hyper-v-new-vhd' },
+        ]
+    },
+    {
+        text:"AI 大模型",
+        collapsed: false,
+        items:[
+            { text: 'LLAMA.CPP 本地模型', link: 'docs/develop/ai/llama' },
+            { text: 'Qdrant 向量数据库', link: 'docs/develop/ai/qdrant' },
         ]
     }
 
